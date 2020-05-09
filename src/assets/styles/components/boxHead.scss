@@ -1,0 +1,43 @@
+@import 'global.scss';
+
+.boxHead {
+    border: 1px solid red;
+}
+
+.images {
+    border: 1px solid red;
+    position: relative;
+    height: 280px;
+    figure {
+        margin: 0;
+    }
+    .intro-img {
+        content: url('../../static/bg-intro-mobile.svg');
+        position: absolute;
+        z-index: 200;
+        left: 0;
+        // height: 280px;
+        object-fit: cover;
+    }
+    .mockups {
+        content: url('../../static/image-mockups.png');
+        position: absolute;
+        z-index: 300;
+        left: 0;
+        right: 0;
+        top: -30vw;
+        margin: 0 auto;
+        max-width: 340px;
+        min-width: 90vw;
+        object-fit: cover;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .images {
+        height: 656px;
+        .intro-img {
+            content: url('../../static/bg-intro-desktop.svg');
+        }
+    }
+}
