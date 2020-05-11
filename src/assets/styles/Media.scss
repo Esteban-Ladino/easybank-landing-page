@@ -1,0 +1,132 @@
+@media screen and (min-width: 769px) {
+    // Header
+    .navbar {
+        ul {
+            display: flex;
+            list-style: none;
+            li {
+                margin: 0 13px;
+                a {
+                    text-decoration: none;
+                    color: $Grayish_Blue;
+                }
+            }
+        }
+        .btn {
+            display: block;
+        }
+        .icon-hamburguer {
+            display: none;
+        }
+    }
+
+    // Boxhead
+    .boxHead {
+        height: 675px;
+        padding: 0;
+        .images {
+            .intro-img {
+                content: url('../static/bg-intro-desktop.svg') !important;
+                top: -243px !important;
+                right: -403px !important;
+                width: 84.7%;
+            }
+            .mockups {
+                top: -122px !important;
+                right: -130px !important;
+                left: auto !important;
+                max-width: 100% !important;
+                margin: 0 !important;
+            }
+        }
+        .container {
+            text-align: start;
+            padding: 0;
+            .boxHead-details {
+                width: 400px;
+                padding: 0;
+                padding-top: 180px;
+                h1 {
+                    margin: 0;
+                    font-weight: 400;
+                    font-size: 3.2rem;
+                }
+                p {
+                    font-weight: 400;
+                    font-size: 1.1rem;
+                    margin: 30px 0 40px;
+                    line-height: 1.7rem;
+                }
+            }
+        }
+    }
+
+    .features {
+        padding-top: 110px;
+        padding-bottom: 90px;
+        text-align: start;
+        h1 {
+            font-weight: 400;
+            font-size: 2.45rem;
+            br {
+                display: none;
+            }
+        }
+        p {
+            font-size: 1.1rem;
+        }
+        .featuresItem {
+            display: flex;
+            margin-top: 70px;
+            .featureItem {
+                align-items: baseline;
+                text-align: start;
+                h2 {
+                    margin-top: 40px;
+                    font-size: 1.6rem;
+                }
+                p {
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+
+    .articles {
+        padding-bottom: 60px;
+        h1 {
+            text-align: start;
+            font-weight: 400;
+            font-size: 2.45rem;
+        }
+        .articlesCards {
+            display: flex;
+            .articleCard {
+                margin-right: 30px;
+                .content {
+                    padding-bottom: 25px;
+                }
+            }
+        }
+    }
+
+    .footer{
+        padding: 0 auto;
+        .container {
+            display: flex;
+            justify-content: space-between;
+            margin: 0;
+            width: 100%;
+            .social i{
+                width: auto;
+            }
+            ul {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+        .footer-more {
+            align-items: flex-end;
+        }
+    }
+}

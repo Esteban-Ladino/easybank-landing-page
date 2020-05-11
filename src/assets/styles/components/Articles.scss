@@ -1,0 +1,11 @@
+.articles {
+    padding: 90px 25px;
+    background: $Very_Light_Gray;
+    h1 {
+        text-align: center;
+        @include principalTitle;
+    }
+    .articlesCards {
+        margin-top: 27px;
+    }
+}

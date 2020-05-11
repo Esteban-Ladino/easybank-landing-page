@@ -1,0 +1,33 @@
+.featureItem {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    .icon-background {
+        width: 73px;
+        height: 73px;
+        border-radius: 50%;
+        background: linear-gradient(90deg, $Lime_Green, $Bright_Cyan);
+        .icon-online {
+            content: url('../../static/icon-online.svg');
+        }
+        .icon-budgeting {
+            content: url('../../static/icon-budgeting.svg');
+        }
+        .icon-onboarding {
+            content: url('../../static/icon-onboarding.svg');
+        }
+        .icon-api {
+            content: url('../../static/icon-api.svg');
+        }
+    }
+    h2 {
+        font-family: $font;
+        font-weight: 300;
+        font-size: 1.3rem;
+        margin: 0;
+        margin-top: 1.5rem;
+    }
+}

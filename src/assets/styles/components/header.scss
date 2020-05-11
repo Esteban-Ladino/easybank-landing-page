@@ -1,7 +1,7 @@
-@import 'global.scss';
-
 header {
-    z-index: 300;
+    position: relative;
+    z-index: 100;
+    background-color: white;
 }
 
 .navbar {
@@ -10,9 +10,6 @@ header {
     justify-content: space-between;
     height: 80px;
     padding: 0 15px;
-    .header-logo {
-        margin: 0;
-    }
     ul {
         display: none;
     }
@@ -21,29 +18,7 @@ header {
     }
     .icon-hamburguer {
         content: url('../../static/icon-hamburger.svg');
-        height: 10px;
+        height: 11px;
         width: 25px;
-    }
-}
-
-@media screen and (min-width: 768px) {
-    .navbar {
-        ul {
-            display: flex;
-            list-style: none;
-            li {
-                margin: 0 13px;
-                a {
-                    text-decoration: none;
-                    color: $Grayish_Blue;
-                }
-            }
-        }
-        .btn {
-            display: block;
-        }
-        .icon-hamburguer {
-            display: none;
-        }
     }
 }
