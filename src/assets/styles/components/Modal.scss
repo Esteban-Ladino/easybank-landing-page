@@ -1,0 +1,36 @@
+.Modal {
+    position: absolute;
+    top: 105px;
+    left:25px;
+    right:25px;
+    background-color: $White;
+    border-radius: 5px;
+    ul {
+        margin-top: 30px;
+        padding: 0;
+        list-style: none;
+        text-align: center;
+        li {
+            margin-bottom: 25px;
+            a {
+                font-size: 1.2rem;
+                font-weight: 400;
+                text-decoration: none;
+                color: $Dark_Blue;
+            }
+        }
+    }
+}
+.Modal:focus {
+    outline: none;
+}
+
+.Overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 90;
+    background: linear-gradient($Dark_Blue, transparent);
+}

@@ -1,7 +1,7 @@
 header {
     position: relative;
     z-index: 100;
-    background-color: white;
+    background-color: $White;
 }
 
 .navbar {
@@ -12,6 +12,22 @@ header {
     padding: 0 15px;
     ul {
         display: none;
+        li {
+            position: relative;
+        }
+        li a:hover {
+            color: $Dark_Blue;
+        }
+        li:hover:after {
+            content: '';
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: -30px;
+            background: linear-gradient(90deg, $Lime_Green, $Bright_Cyan);
+            height: 4px;
+            width: 100%;
+        }
     }
     .btn {
         display: none;
@@ -20,5 +36,10 @@ header {
         content: url('../../static/icon-hamburger.svg');
         height: 11px;
         width: 25px;
+    }
+    .icon-close {
+        content: url('../../static/icon-close.svg');
+        height: 20px;
+        width: 20px;
     }
 }

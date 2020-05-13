@@ -28,6 +28,10 @@
             font-weight: 400;
             font-size: 1rem;
         }
+        h4:hover {
+            color: $Lime_Green;
+            cursor: pointer;
+        }
         p {
             color: $Grayish_Blue;
             font-size: .8rem;

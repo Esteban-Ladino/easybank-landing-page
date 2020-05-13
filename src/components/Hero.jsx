@@ -1,15 +1,15 @@
 import React from 'react'
 import Button from './Button'
 
-const BoxHead = (props) => {
+const Hero = (props) => {
     return (
-        <section className="boxHead">
+        <section className="hero">
             <div className="images">
-                <figure><img className='intro-img' alt='Intro'/></figure>
-                <figure><img className="mockups" alt="Mockups" /></figure>
+                <figure><div className='intro-img'/></figure>
+                <figure><div className="mockups"/></figure>
             </div>
             <div className="container">
-                <div className="boxHead-details">
+                <div className="hero-details">
                     <h1>Next generation digital banking</h1>
                     <p>Take your financial life online. Your Easybank account will be a one-stop-shop for spending, saving, budgeting, investing, and much more.</p>
                 </div>
@@ -19,4 +19,4 @@ const BoxHead = (props) => {
     )
 }
 
-export default BoxHead
+export default Hero

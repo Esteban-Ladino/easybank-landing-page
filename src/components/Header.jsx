@@ -1,22 +1,20 @@
 import React from 'react'
 import Logo from './Logo'
 import Button from '../components/Button'
+import Menu from './Menu'
 
+const Header = ({ showModal, handleShowModal }) => {
 
-const Header = (props) => {
     return (
         <header>
             <nav className='navbar container'>
                 <Logo dark={true}/>
-                <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/">About</a></li>
-                    <li><a href="/">Contact</a></li>
-                    <li><a href="/">Blog</a></li>
-                    <li><a href="/">Careers</a></li>
-                </ul>
+                <Menu />
                 <Button text='Request Invite' />
-                <i className='icon-hamburguer'></i>
+                <i 
+                    className={`icon-${showModal? 'close' : 'hamburguer'}`}
+                    onClick={handleShowModal}
+                ></i>
             </nav>
         </header>
     )

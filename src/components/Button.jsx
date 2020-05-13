@@ -6,7 +6,7 @@ const Button = (props) => {
     } = props
 
     return (
-        <button className='btn'><strong>{text}</strong></button>
+        <button className='btn'>{text}</button>
     )
 }
 

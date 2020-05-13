@@ -17,12 +17,12 @@ const Footer = () => {
                     </div>
                 </div>
                 <ul>
-                    <li>About Us</li>
-                    <li>Contact</li>
-                    <li>Blog</li>
-                    <li>Careers</li>
-                    <li>Support</li>
-                    <li>Privacy Policy</li>
+                    <li><a href="/">About Us</a></li>
+                    <li><a href="/">Contact</a></li>
+                    <li><a href="/">Blog</a></li>
+                    <li><a href="/">Careers</a></li>
+                    <li><a href="/">Support</a></li>
+                    <li><a href="/">Privacy Policy</a></li>
                 </ul>
                 <div className="footer-more">
                     <Button text='Request Invite' />

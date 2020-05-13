@@ -20,32 +20,38 @@
         }
     }
 
-    // Boxhead
-    .boxHead {
+    // Hero
+    .hero {
         height: 675px;
         padding: 0;
         .images {
             .intro-img {
-                content: url('../static/bg-intro-desktop.svg') !important;
-                top: -243px !important;
-                right: -403px !important;
-                width: 84.7%;
+                background: url('../static/bg-intro-desktop.svg');
+                background-repeat: no-repeat;
+                background-size: 112vw;
+                background-position: -5.5vw -260px;
+                max-height: 675px;
+                max-width: 65vw;
             }
             .mockups {
-                top: -122px !important;
-                right: -130px !important;
-                left: auto !important;
-                max-width: 100% !important;
-                margin: 0 !important;
+                right: 0;
+                left: auto;
+                height: 69vw;
+                max-height: 770px;
+                max-width: 56vw;
+                background-size: 68vw;
+                background-position: -15px -125px;
+                margin: 0;
             }
         }
         .container {
             text-align: start;
             padding: 0;
-            .boxHead-details {
-                width: 400px;
+            padding-left: 10px;
+            .hero-details {
+                width: 35vw;
                 padding: 0;
-                padding-top: 180px;
+                padding-top: 15vw;
                 h1 {
                     margin: 0;
                     font-weight: 400;
@@ -100,7 +106,8 @@
             font-size: 2.45rem;
         }
         .articlesCards {
-            display: flex;
+            display: grid;
+            grid-template: 1fr 1fr / 1fr 1fr;
             .articleCard {
                 margin-right: 30px;
                 .content {
@@ -127,6 +134,34 @@
         }
         .footer-more {
             align-items: flex-end;
+        }
+    }
+}
+
+@media screen and (min-width: 1125px) {
+    .hero {
+        .images {
+            .intro-img {
+                max-width: 740px;
+                background-size: initial;
+                background-position: -69px -260px;
+            }
+            .mockups {
+                height: 100vw;
+                max-width: 620px;
+                background-size: initial;
+            }
+        }
+        .container {
+            .hero-details {
+                width: 400px;
+                padding-top: 180px;
+            }
+        }
+    }
+    .articles {
+        .articlesCards {
+            display: flex;
         }
     }
 }
