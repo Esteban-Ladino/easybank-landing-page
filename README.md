@@ -22,7 +22,7 @@ To excecute type
 
 ## Preview
 
-![Preview](https://github.com/Esteban-Ladinoeasybank-landing-page/blob/master/images/preview1.png)
+![Preview](https://github.com/Esteban-Ladino/easybank-landing-page/blob/master/images/preview1.png)
 
 ## How to contribute
 
