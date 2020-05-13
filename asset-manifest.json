@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/easybank-landing-page/static/css/main.13bd6499.chunk.css",
+    "main.js": "/easybank-landing-page/static/js/main.61447aad.chunk.js",
+    "main.js.map": "/easybank-landing-page/static/js/main.61447aad.chunk.js.map",
+    "runtime-main.js": "/easybank-landing-page/static/js/runtime-main.1eb19c22.js",
+    "runtime-main.js.map": "/easybank-landing-page/static/js/runtime-main.1eb19c22.js.map",
+    "static/js/2.d9e3b21d.chunk.js": "/easybank-landing-page/static/js/2.d9e3b21d.chunk.js",
+    "static/js/2.d9e3b21d.chunk.js.map": "/easybank-landing-page/static/js/2.d9e3b21d.chunk.js.map",
+    "index.html": "/easybank-landing-page/index.html",
+    "precache-manifest.374976b326b800330101b5e9556da373.js": "/easybank-landing-page/precache-manifest.374976b326b800330101b5e9556da373.js",
+    "service-worker.js": "/easybank-landing-page/service-worker.js",
+    "static/css/main.13bd6499.chunk.css.map": "/easybank-landing-page/static/css/main.13bd6499.chunk.css.map",
+    "static/js/2.d9e3b21d.chunk.js.LICENSE.txt": "/easybank-landing-page/static/js/2.d9e3b21d.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/easybank-landing-page/static/media/image-mockups.edc63e85.png",
+    "static/media/image-confetti.jpg": "/easybank-landing-page/static/media/image-confetti.1510e4a2.jpg",
+    "static/media/image-currency.jpg": "/easybank-landing-page/static/media/image-currency.0f583e2b.jpg",
+    "static/media/image-plane.jpg": "/easybank-landing-page/static/media/image-plane.c619f6cb.jpg",
+    "static/media/image-restaurant.jpg": "/easybank-landing-page/static/media/image-restaurant.b561f8d5.jpg",
+    "static/media/logoDark.svg": "/easybank-landing-page/static/media/logoDark.fe5c6dce.svg",
+    "static/media/logoLight.svg": "/easybank-landing-page/static/media/logoLight.dfbe449b.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1eb19c22.js",
+    "static/js/2.d9e3b21d.chunk.js",
+    "static/css/main.13bd6499.chunk.css",
+    "static/js/main.61447aad.chunk.js"
+  ]
+}
