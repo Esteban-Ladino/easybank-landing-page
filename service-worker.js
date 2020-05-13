@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/easybank-landing-page/precache-manifest.3e9c016a50f0efa92d37ce728ddcb737.js"
+  "/easybank-landing-page/precache-manifest.6ce3004737bc11228e5d6c40f05f29d6.js"
 );
 
 self.addEventListener('message', (event) => {
