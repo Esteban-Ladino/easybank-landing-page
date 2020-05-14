@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2c2e788492fc7fda54b076ded06d52c4",
+    "revision": "dec48448dd46dd6411e816a9130c2976",
     "url": "/easybank-landing-page/index.html"
   },
   {
-    "revision": "387c915e05990819e092",
-    "url": "/easybank-landing-page/static/css/main.eea95e40.chunk.css"
+    "revision": "045775d434ee0b24ee2e",
+    "url": "/easybank-landing-page/static/css/main.3a9d9ea5.chunk.css"
   },
   {
     "revision": "3ec0e15c97a205d75f72",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/easybank-landing-page/static/js/2.d9e3b21d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "387c915e05990819e092",
+    "revision": "045775d434ee0b24ee2e",
     "url": "/easybank-landing-page/static/js/main.61447aad.chunk.js"
   },
   {
